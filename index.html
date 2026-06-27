@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="ja">
 <head>
@@ -278,6 +279,23 @@
   .sns-card .sns-id{font-size:13px;color:var(--text-soft);margin-bottom:14px;line-height:1.6;}
   .sns-card .btn{width:100%;font-size:14px;padding:11px 0;}
   .btn-ig{background:#C13584;color:#fff;}
+
+  /* スマホ向け調整 */
+  @media(max-width:600px){
+    html,body{overflow-x:hidden;}
+    .wrap{padding:0 16px;}
+    section{padding:48px 0;}
+    .hero{padding:52px 0 44px;}
+    .hero-mark{width:160px;right:-6px;top:12px;opacity:.07;}
+    .hero-eyebrow{letter-spacing:2px;font-size:12px;}
+    .hero h1{font-size:24px;line-height:1.75;letter-spacing:0;}
+    .hero h1 br,.note-band h2 br{display:none;}
+    .hero p.lead{font-size:15px;}
+    .sec-head h2{letter-spacing:1px;}
+    .note-band h2{line-height:1.75;}
+    .greet{gap:20px;}
+    .profile-table .pr{grid-template-columns:92px 1fr;}
+  }
 </style>
 </head>
 <body>
